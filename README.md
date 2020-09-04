@@ -1,8 +1,11 @@
+![GitHub Logo](/images/ufc.png)
 # UFC Predictions
    *TLDR* : Create a machine learning model to accurately predict the victorious contender in the **UFC** promotion.
 ## 0.1 Prelude:
-   My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights). 
-    
+   My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights).
+   
+   ![GitHub Logo](/images/DC.jpg)
+
    With my background in computer science and Machine Learning, I thought of creating a ML model to predict with a higher accuracy than what I can currently pick. (since machine analysis can be superior to human analysis and I mostly end up guessing). 
 
 
@@ -17,6 +20,7 @@
 - With every ML project, the performance and accuracy heavily relies on the consistency of the dataset. 
 - The dataset that i will be using is a from kaggle and can be found [here](https://www.kaggle.com/rajeevw/ufcdata)
 - there are many entries of fight data. The more the merrier for our model to determine correlations.
+- The data dates back to the debut of the UFC 
 
 Below is a sample of the columns of data with their description:
 Column Name | Description
@@ -51,3 +55,5 @@ Column Name | Description
 **win_by_KO/TKO** | is the number of wins by knockout in the fighter's ufc career
 **win_by_Submission** | is the number of wins by submission in the fighter's ufc career
 **win_by_TKO_Doctor_Stoppage** | is the number of wins by doctor stoppage in the fighter's ufc career
+
+### Currently working on dataset processing.
