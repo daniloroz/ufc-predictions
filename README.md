@@ -56,4 +56,7 @@ Column Name | Description
 **win_by_Submission** | is the number of wins by submission in the fighter's ufc career
 **win_by_TKO_Doctor_Stoppage** | is the number of wins by doctor stoppage in the fighter's ufc career
 
-### Currently working on dataset processing.
+### 3 Dataset Processing
+- the dataset included a preprocessed file, however I noticed it omitted some columns that could serve useful. So I decided to process them myself with a custom script.
+- currently being worked on now
+
