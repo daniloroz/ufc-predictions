@@ -18,8 +18,12 @@
 
 ## 2 Dataset:
 - With every ML project, the performance and accuracy heavily relies on the consistency of the dataset. 
-- The dataset that i will be using is a from kaggle and can be found [here](https://www.kaggle.com/rajeevw/ufcdata)
+- The dataset that i will be using is from kaggle which was scraped from ufc statitstics website and can be found [here](https://www.kaggle.com/rajeevw/ufcdata)
 - there are many entries of fight data. The more the merrier for our model to determine correlations.
+- there were 3 .csv files provided:
+      1. data.csv (partial processed file aggregated from csv datasets below)
+      2. raw_fighter_details.csv (contains details of each separate fighter)
+      3. raw_total_fight_data.csv (data from every fight from ufc)
 - The data dates back to the debut of the UFC 
 
 Below is a sample of the columns of data with their description:
@@ -57,6 +61,7 @@ Column Name | Description
 **win_by_TKO_Doctor_Stoppage** | is the number of wins by doctor stoppage in the fighter's ufc career
 
 ### 3 Dataset Processing
-- the dataset included a preprocessed file, however I noticed it omitted some columns that could serve useful. So I decided to process them myself with a custom script.
-- currently being worked on now
+- the purpose of processing the data is to find the most valuable features which will lead to higher accuracies in the model
+- the dataset included a preprocessed file, however with this project I would like to perform custom feature engineering to better understand how the model will work with the data.
+-  I am currently in the process of analysing the different datasets provided and create an optimal dataset to pass in to the model. 
 
