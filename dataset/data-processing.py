@@ -1,9 +1,17 @@
-import csv
+import numpy as np
+import pandas as pd
+import datetime
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.pipeline import make_pipeline
+from feature_engine import missing_data_imputers as mdi
+from feature_engine import categorical_encoders as ce
+from sklearn.model_selection import train_test_split
 
-with open("data.csv") as fp:
-    reader = csv.reader(fp, delimiter=",", quotechar='"')
-    next(reader, None)
-    data_read = [row for row in reader]
 
-for i in range(6):
-    print(data_read[i])
+#matplotlib inline
+with open('HRDataset.csv') as f:
+    df = pd.read_csv(f)
+f.close()
+df.head()
+df.info()
