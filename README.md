@@ -63,5 +63,9 @@ Column Name | Description
 ### 3 Dataset Processing
 - the purpose of processing the data is to find the most valuable features which will lead to higher accuracies in the model
 - the dataset included a preprocessed file, however with this project I would like to perform custom feature engineering to better understand how the model will work with the data.
--  I am currently in the process of analysing the different datasets provided and create an optimal dataset to pass in to the model. 
+-  Currently working on processing dataset/data.csv. Have implemented the following processing methods:
+   1. Finding Feature Variability
+   2. duplicate features and mistakes in entries
+   3. Missing Values
+   4. Outliers
 
