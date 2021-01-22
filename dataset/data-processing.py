@@ -25,6 +25,8 @@ df.drop(['R_fighter'], axis=1, inplace=True)
 df.drop(['B_fighter'], axis=1, inplace=True)
 df.drop(['Referee'], axis=1, inplace=True)
 df.drop(['location'], axis=1, inplace=True)
+df.drop(['date'], axis=1, inplace=True)
+
 
 #find cardinality
 for var in df.columns:
