@@ -45,19 +45,6 @@ for var in df.columns:
         print(var, df[var].isnull().mean().round(3))
 #df.drop('tenure_termed', axis=1, inplace=True)
 
-#outlier treatment 
-def find_outlier(feature):
-    sorted(feature)
-    q1,q3 = np.percentile(feature , [25,75])
-    IQR = q3 - q1
-    lower_range = q1 - (1.5 * IQR)
-    upper_range = q3 + (1.5 * IQR)
-    return lower_range,upper_range
-
-find_outlier(df['B_losses'])
-lower_range, upper_range = find_outlier(df['B_losses'])
-df[(df['B_losses'] < lower_range) | (df['B_losses'] > upper_range)]
-
 #training and test splitting
 X = df.drop('Win', axis=1)
 y = df['Win']
