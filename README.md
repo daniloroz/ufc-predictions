@@ -1,8 +1,7 @@
 # UFC Predictions
    *TLDR* : Create a machine learning model to accurately predict the victorious contender in the **UFC** promotion.
    > There will be a jupyter notebook file committed for simple compilation if you want to use the models yourselves
-   [Scikit-Learn](https://scikit-learn.org/stable/){: .btn .btn-red .mr-2 }
-
+   
    ![GitHub Logo](/images/ufc.png)
 ## 0.1 Prelude:
    My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights).
