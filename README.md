@@ -1,5 +1,8 @@
 # UFC Predictions
    *TLDR* : Create a machine learning model to accurately predict the victorious contender in the **UFC** promotion.
+   > There will be a jupyter notebook file committed for simple compilation if you want to use the models yourselves
+   [Scikit-Learn](https://scikit-learn.org/stable/){: .btn .btn-red .mr-2 }
+
    ![GitHub Logo](/images/ufc.png)
 ## 0.1 Prelude:
    My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights).
@@ -60,7 +63,7 @@ Column Name | Description
 **win_by_Submission** | is the number of wins by submission in the fighter's ufc career
 **win_by_TKO_Doctor_Stoppage** | is the number of wins by doctor stoppage in the fighter's ufc career
 
-### 3 Dataset Processing
+## 3 Dataset Processing
 - the purpose of processing the data is to find the most valuable features which will lead to higher accuracies in the model
 - the dataset included a preprocessed file, however with this project I would like to perform custom feature engineering to better understand how the model will work with the data.
 -  Currently working on processing dataset/data.csv. Have implemented the following processing methods:
@@ -68,4 +71,5 @@ Column Name | Description
    2. duplicate features and mistakes in entries
    3. Missing Values
    4. Outliers
+   5. Encoding and Imputations
 
