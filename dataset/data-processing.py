@@ -72,4 +72,9 @@ process_pipe = make_pipeline(
 process_pipe.fit(X_train, y_train)
 X_train_clean = process_pipe.transform(X_train)
 X_test_clean = process_pipe.transform(X_test)
-X_train_clean.head()
+
+X_train_clean = X_train_clean.fillna(X_train_clean.mean())
+X_test_clean = X_test_clean.fillna(X_test_clean.mean())
+
+#X_train_clean.head()
+#X_train_clean.to_csv('train.csv')
