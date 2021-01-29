@@ -28,6 +28,12 @@ df.drop(['location'], axis=1, inplace=True)
 df.drop(['date'], axis=1, inplace=True)
 df.drop(['title_bout'], axis=1, inplace=True)
 
+#change winner (red/blue) to 1 or 0
+df['Winner'] = df['Winner'].replace(['Red'],'0')
+df['Winner'] = df['Winner'].replace(['Blue'],'1')
+df['Winner'] = df['Winner'].replace(['Draw'],'2')
+df['Winner'] = pd.to_numeric(df["Winner"])
+
 
 #find cardinality
 for var in df.columns:
