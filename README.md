@@ -2,6 +2,11 @@
    *TLDR* : Create a machine learning model to accurately predict the victorious contender in the **UFC** promotion.
    > There will be a jupyter notebook file committed for simple compilation if you want to use the models yourselves
    
+   **Tools Needed**
+   - Model Genreation: Scikit-learn, Tensorflow
+   - Data Manipulation: pandas, numpy, feature_engine
+   *jupyter notebook is recommended for easiest compliation*
+   
    ![GitHub Logo](/images/ufc.png)
 ## 0.1 Prelude:
    My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights).
@@ -72,13 +77,14 @@ Column Name | Description
    4. Outliers
    5. Encoding and Imputations
    
-   - For missing forms of data, there were imputations made with an arbitrary number (for floats 0.0).
-   - Some ages were missing. They were Imputed the missing ages with the mode of th ages.
-   - Imputations and encoding can be re-evaluated later to optimize the performance of the models.
-   - Performance of a ML model relies heavily on the consistency of the dataset. The current dataset can always be worked on and optimized. Dropped columns can be recycled and formatted into a useful feature. Only basic preprocessing and cleaning has been done. I want to get a model working first. More analysis and work on the dataset will be made afterwords. For example, using the fight dates and calculate how long the break period between their fights. This can offer more insight if this break time affects their performance in a fight. The number of possibilities to find more features from data is endless.
+     - For missing forms of data, there were imputations made with an arbitrary number (for floats 0.0).
+     - Some ages were missing. They were Imputed the missing ages with the mode of th ages.
+     - Imputations and encoding can be re-evaluated later to optimize the performance of the models.
+     > Performance of a ML model relies heavily on the consistency of the dataset. The current dataset can always be worked on and optimized. Dropped columns can be recycled and formatted into a useful feature. Only basic preprocessing and cleaning has been done. I want to get a model working first. 
+     > More analysis and work on the dataset will be made afterwords. For example, using the fight dates and calculate how long the break period between their fights. This can offer more insight if this break time affects their performance in a fight. The number of possibilities to find more features from data is endless.
    
 ## Model
-- The first model used is Logistic Regression
+- The first model used is Logistic Regression. is found in models/model_lr1.py
 - Accuracy outputted is around 69.50 percent.
 - Currently working on further evaluations and introducing new algorithms and models.
    
