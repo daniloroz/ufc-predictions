@@ -80,12 +80,17 @@ Column Name | Description
      - For missing forms of data, there were imputations made with an arbitrary number (for floats 0.0).
      - Some ages were missing. They were Imputed the missing ages with the mode of th ages.
      - Imputations and encoding can be re-evaluated later to optimize the performance of the models.
-     > Performance of a ML model relies heavily on the consistency of the dataset. The current dataset can always be worked on and optimized. Dropped columns can be recycled and formatted into a useful feature. Only basic preprocessing and cleaning has been done. I want to get a model working first. 
+     > Performance of a ML model relies heavily on the consistency of the dataset. The current dataset can always be worked on and optimized. Dropped columns can be recycled and formatted into a useful feature. Only basic preprocessing and cleaning has been done. I want to get a model working first.
+     
      > More analysis and work on the dataset will be made afterwords. For example, using the fight dates and calculate how long the break period between their fights. This can offer more insight if this break time affects their performance in a fight. The number of possibilities to find more features from data is endless.
    
 ## Model
 - The first model used is Logistic Regression. is found in models/model_lr1.py
 - Accuracy outputted is around 69.50 percent.
-- Currently working on further evaluations and introducing new algorithms and models.
+- Currently working on evaluations of the LR model and introducing new algorithms and models.
+
+## Testing
+- Multiple testing methods will be used on models.
+- These testing methods include; K-Fold cross validation
    
 
