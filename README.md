@@ -7,6 +7,10 @@
    - Data Manipulation: pandas, numpy, feature_engine
    *jupyter notebook is recommended for easiest compliation*
    
+   **To Compile**
+   1. clone or download code, cd into directory. If using .ipynb follow instructions [here](https://stackoverflow.com/questions/53254703/import-its-own-ipynb-files-on-google-colab) on how to import to google collab *easiest method* (no need to install packages on local machine)
+   2. install using pip
+   
    ![GitHub Logo](/images/ufc.png)
 ## 0.1 Prelude:
    My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights).
