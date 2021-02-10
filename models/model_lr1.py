@@ -29,3 +29,25 @@ predictions = model.predict(X_test)
 
 score = model.score(X_test, y_test)
 print(score)
+
+#evaluation of current model cross_validation
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_validate
+from sklearn.metrics import recall_score
+from sklearn.model_selection import KFold
+
+lr_scores = cross_val_score(model, X_test_clean, y_test, cv=5)
+print(lr_scores)
+
+#validat method
+#It allows specifying multiple metrics for evaluation.
+#It returns a dict containing fit-times, score-times (and optionally training scores as well as fitted estimators) in addition to the test score.
+scoring = ['precision_macro', 'recall_macro']
+lr2_scores = cross_validate(model, X_test_clean, y_test, scoring=scoring)
+sorted(lr2_scores.keys())
+lr2_scores['test_recall_macro']
+
+#kfold
+kf = KFold(n_splits=5)
+for train, test in kf.split(X):
+  print("%s %s" % (train, test))
