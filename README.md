@@ -93,9 +93,16 @@ Column Name | Description
      > More analysis and work on the dataset will be made afterwords. For example, using the fight dates and calculate how long the break period between their fights. This can offer more insight if this break time affects their performance in a fight. The number of possibilities to find more features from data is endless.
    
 ## 4 Models
-- The first model used is Logistic Regression. is found in models/model_lr1.py
+##### Logistic Regression:	 
+- is found in models/model_lr1.py
 - Accuracy outputted is around 69.50 percent *(Not-ideal)*.
 - Currently working on evaluations of the LR model and introducing new algorithms and models.
+##### Naive Bayes:
+- is found in models/model_NB.py
+- tested Gaussian, Complement, binomial naive bayes 
+##### Neural Network:
+- is found in models/model_NN.py
+- multi-layer perceptron (MLP) algorithm that trains using Backpropagation. Best for classifications
 
 ## 5 Testing
 - Multiple testing methods will be used on models After extensive research multiple validation and evaluation methods will be used for assessing performance.
