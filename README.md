@@ -3,6 +3,9 @@
    > There will be a jupyter notebook file committed for simple compilation if you want to use the models yourselves
    
    **Tools Needed**
+   
+   <img src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/ai.png" alt="AI" width="60" hight="20"> <img src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/python.png" alt="python" width="80" hight="20">
+   
    - Model Genreation: Scikit-learn, Tensorflow
    - Data Manipulation: pandas, numpy, feature_engine
    *(jupyter notebook is recommended for easiest compliation)*
