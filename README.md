@@ -1,5 +1,6 @@
 # UFC Predictions
    *TLDR* : Create a machine learning model to accurately predict the victorious contender in the **UFC** promotion.
+   Best models are able to yield a 70 percent accuracy.
    > There will be a jupyter notebook file committed for simple compilation if you want to use the models yourselves
    
    **Tools Needed**
