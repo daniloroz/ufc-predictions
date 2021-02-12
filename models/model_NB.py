@@ -18,3 +18,13 @@ y_pred = mnb.fit(X_train_clean, y_train).predict(X_test_clean)
 y_pred = cgnb.fit(X_train_clean, y_train).predict(X_test_clean)
 
 print("Number of mislabeled points out of a total %d points : %d" % (X_test_clean.shape[0], (y_test != y_pred).sum()))
+
+cm = metrics.confusion_matrix(y_test, y_pred)
+print(cm)
+
+plt.figure(figsize=(9,9))
+sns.heatmap(cm, annot=True, fmt=".3f", linewidths=.5, square = True, cmap = 'Blues_r');
+plt.ylabel('Actual label');
+plt.xlabel('Predicted label');
+all_sample_title = 'Accuracy Score: {0}'.format(score)
+plt.title(all_sample_title, size = 15);
