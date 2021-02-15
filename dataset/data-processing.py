@@ -50,6 +50,9 @@ X = df.drop('Win', axis=1)
 y = df['Win']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
+#scatterplot analysis
+sns.scatterplot(x='B_avg_CLINCH_att', y='R_avg_opp_CLINCH_landed', hue='Winner', data=df)
+
 """ ENCODING TECHNIQUES """
 # impute categorical features with more than 5% missing values w/ a new category 'missing'
 process_pipe = make_pipeline(
