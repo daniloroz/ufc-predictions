@@ -28,8 +28,8 @@
 - Create a ML model to analyze fight data in the UFC promotion and predict the winner of the bout.
 - Acheive an acceptable accuracy (most models already out the has acheived anywhere from 70%-80% some example models [here](https://github.com/WarrierRajeev/UFC-Predictions) and [here](https://github.com/rezan21/UFC-Prediction/blob/master/README.md))
 - Find an Updated dataset with current roster and records
-- Have some visualization generated
-- Have some insights on which factors plays into winning the bout
+- Have some visualization generated, to give some insights on which factors plays into winning the bout
+- Use package SciKit-Learn. Documentation can be found [here](https://scikit-learn.org/)
 
 ## 2 Dataset:
 - With every ML project, the performance and accuracy heavily relies on the consistency of the dataset. 
