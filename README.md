@@ -9,6 +9,7 @@
    
    - Model Genreation: Scikit-learn, Tensorflow
    - Data Manipulation: pandas, numpy, feature_engine
+   - Documentation found [here](https://scikit-learn.org/)
    *(jupyter notebook is recommended for easiest compliation)*
    
    **To Compile**
@@ -41,7 +42,7 @@
       3. raw_total_fight_data.csv (data from every fight from ufc)
 - The data dates back to the debut of the UFC 
 
-Below is a sample of the columns of data with their description:
+Below is a small sample of the columns of data with their description:
 Column Name | Description
 ------------ | -------------
 **R_** and **B_** | prefix signifies red and blue corner fighter stats respectively
@@ -70,10 +71,6 @@ Column Name | Description
 **total_title_bouts** | is the total number of title bouts taken part in by the fighter
 **win_by_Decision_Majority** | is the number of wins by majority judges decision in the fighter's ufc career
 **win_by_Decision_Split** | is the number of wins by split judges decision in the fighter's ufc career
-**win_by_Decision_Unanimous** | is the number of wins by unanimous judges decision in the fighter's ufc career
-**win_by_KO/TKO** | is the number of wins by knockout in the fighter's ufc career
-**win_by_Submission** | is the number of wins by submission in the fighter's ufc career
-**win_by_TKO_Doctor_Stoppage** | is the number of wins by doctor stoppage in the fighter's ufc career
 
 ## 3 Dataset Processing
 - the purpose of processing the data is to find the most valuable features which will lead to higher accuracies in the model
@@ -104,6 +101,8 @@ Column Name | Description
 ##### Neural Network:
 - is found in models/model_NN.py
 - multi-layer perceptron (MLP) algorithm that trains using Backpropagation. Best for classifications
+##### Support Vector machine Classifier (SVM):
+- is found in models/model_SVM.py
 
 ## 5 Testing
 - Multiple testing methods will be used on models After extensive research multiple validation and evaluation methods will be used for assessing performance.
