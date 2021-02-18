@@ -18,7 +18,12 @@
    
    ![GitHub Logo](/images/ufc.png)
 ## 0.1 Prelude:
+
+  The Ultimate Fighting Championship (UFC) is currently one of the fastest-growing sports in the world (Telegraph, 2017) and organises events weekly.
+  
    My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights).
+   
+   
    
    ![GitHub Logo](/images/DC.jpg)
 
@@ -110,6 +115,11 @@ Column Name | Description
 
 ## 6 Results
 - Initial scores have been returning accuracies of 69.00 - 70.00 percent. Many improvements are still left to be made on the models
-- Model and testing still being done *(stay tuned)*
+- Model and testing still being done. Accuracies and performance of models will be posted soon.
+
+## 7 Usage
+- Currently working on the models accepting user input to predict nrew matchups.
+- Multiple datasets must be referenced in order ot make this happen. Since model training template must be identical all around
+- A custom script is being created to account for this.
    
 
