@@ -48,6 +48,7 @@
 - The data dates back to the debut of the UFC 
 
 Below is a small sample of the columns of data with their description:
+
 Column Name | Description
 ------------ | -------------
 **R_** and **B_** | prefix signifies red and blue corner fighter stats respectively
@@ -118,8 +119,21 @@ Column Name | Description
 - Model and testing still being done. Accuracies and performance of models will be posted soon.
 
 ## 7 Usage
-- Currently working on the models accepting user input to predict nrew matchups.
-- Multiple datasets must be referenced in order ot make this happen. Since model training template must be identical all around
-- A custom script is being created to account for this.
-   
+- Currently working on the models accepting input to predict new matchups.
+- Multiple datasets must be referenced in order ot make this happen. Since model training template must be identical all around.
+- An input csv file is used to predict upcoming fights:
+- UFC 259 Main card is used as input which takes place on **Saturday March 6, 2021**. Below is a table to track different predicitions made by the different models.
+
+| Model | Contenders | Picked Winner | Actual Winner |
+| :---: | :---:      | :---:         | :---:         |
+| LR   | Adesanya vs Błachowicz | Błachowicz | TBA |
+| LR   | Nunes vs Anderson | Nunes | TBA |
+| LR   | Yan vs Sterling | Yan | TBA |
+| LR   | Santos vs Rakic | Rakic | TBA |
+| NB   |  Adesanya vs Błachowicz | Adesanya | TBA |
+| NB   | Nunes vs Anderson | Nunes | TBA |
+| NB   | Yan vs Sterling | Yan | TBA |
+| NB   | Santos vs Rakic | Rakic | TBA |
+
+
 
