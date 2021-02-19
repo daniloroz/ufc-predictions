@@ -118,6 +118,13 @@ Column Name | Description
 - Initial scores have been returning accuracies of 69.00 - 70.00 percent. Many improvements are still left to be made on the models
 - Model and testing still being done. Accuracies and performance of models will be posted soon.
 
+| Model | Accuracy | Recall | Precision |
+| :---: | :---:    | :---:  | :---:     |
+| LR   | 0.6958 |  |  |
+| NB   | 0.5889 |  |  |
+| SVM   | 0.6919 |  |  |
+| NN   | 0.6919 |  |  |
+
 ## 7 Usage
 - Currently working on the models accepting input to predict new matchups.
 - Multiple datasets must be referenced in order ot make this happen. Since model training template must be identical all around.
