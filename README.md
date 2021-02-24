@@ -7,7 +7,7 @@
    
    <img src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/ai.png" alt="AI" width="60" hight="20"> <img src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/python.png" alt="python" width="80" hight="20">
    
-   - Model Genreation: Scikit-learn, Tensorflow
+   - Model Generation: Scikit-learn, Tensorflow
    - Data Manipulation: pandas, numpy, feature_engine
    - Documentation found [here](https://scikit-learn.org/)
    *(jupyter notebook is recommended for easiest compliation)*
