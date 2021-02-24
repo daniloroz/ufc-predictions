@@ -10,7 +10,7 @@ bnb = BernoulliNB()
 mnb = MultinomialNB()
 gnb = GaussianNB()
 
-#comment out naive bayes you do not want to use.
+#comment out the function of naive bayes you do not want to use.
 
 y_pred = cnb.fit(X_train_clean, y_train).predict(X_test_clean)
 y_pred = bnb.fit(X_train_clean, y_train).predict(X_test_clean)
