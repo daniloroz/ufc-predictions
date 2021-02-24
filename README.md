@@ -120,10 +120,10 @@ Column Name | Description
 
 | Model | Accuracy | Recall | Precision |
 | :---: | :---:    | :---:  | :---:     |
-| LR   | 0.6958 |  |  |
-| NB   | 0.5889 |  |  |
-| SVM   | 0.6919 |  |  |
-| NN   | 0.6919 |  |  |
+| LR   | 0.6958 | 0.4312  | 0.5080 |
+| NB   | 0.5889 | 0.5726 |  | 0.5882
+| SVM   | 0.4919 | 0.4829  | 0.4311|
+| NN   | 0.4559 | 0.4385  | 0.4158 |
 
 ## 7 Usage
 - Currently working on the models accepting input to predict new matchups.
