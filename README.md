@@ -133,14 +133,16 @@ Column Name | Description
 
 | Model | Contenders | Picked Winner | Actual Winner |
 | :---: | :---:      | :---:         | :---:         |
-| LR   | Adesanya vs Błachowicz | Błachowicz | TBA |
-| LR   | Nunes vs Anderson | Nunes | TBA |
-| LR   | Yan vs Sterling | Yan | TBA |
-| LR   | Santos vs Rakic | Rakic | TBA |
-| NB   |  Adesanya vs Błachowicz | Adesanya | TBA |
-| NB   | Nunes vs Anderson | Nunes | TBA |
-| NB   | Yan vs Sterling | Yan | TBA |
-| NB   | Santos vs Rakic | Rakic | TBA |
+| LR   | Adesanya vs Błachowicz | Błachowicz | Błachowicz |
+| LR   | Nunes vs Anderson | Nunes | Nunes |
+| LR   | Yan vs Sterling | Yan | DQ |
+| LR   | Santos vs Rakic | Rakic | Rakic |
+| NB   |  Adesanya vs Błachowicz | Adesanya | Błachowicz |
+| NB   | Nunes vs Anderson | Nunes | Nunes |
+| NB   | Yan vs Sterling | Yan | DQ |
+| NB   | Santos vs Rakic | Rakic | Rakic |
+
+> Yan vs Sterling ended via DQ maing Sterling the winner
 
 ## 8 Lessons Learned
 - I am happy with the results with ~70 percent accuracies on optimal models
