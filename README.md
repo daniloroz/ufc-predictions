@@ -129,7 +129,7 @@ Column Name | Description
 - Currently working on the models accepting input to predict new matchups.
 - Multiple datasets must be referenced in order ot make this happen. Since model training template must be identical all around.
 - An input csv file is used to predict upcoming fights:
-- UFC 259 Main card is used as input which takes place on **Saturday March 6, 2021**. Below is a table to track different predicitions made by the different models.
+- UFC 259 Main card is used as input which took place on **Saturday March 6, 2021**. Below is the results of the event and model picks.
 
 | Model | Contenders | Picked Winner | Actual Winner |
 | :---: | :---:      | :---:         | :---:         |
@@ -143,6 +143,7 @@ Column Name | Description
 | NB   | Santos vs Rakic | Rakic | Rakic |
 
 > Yan vs Sterling ended via DQ maing Sterling the winner
+
 
 ## 8 Lessons Learned
 - I am happy with the results with ~70 percent accuracies on optimal models
