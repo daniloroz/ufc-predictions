@@ -148,7 +148,7 @@ Column Name | Description
 ## 8 Lessons Learned
 - I am happy with the results with ~70 percent accuracies on optimal models
 - The nature of picking a winning fights and being accurate is hard in itself. There are so many variables to analyze and determine correlations. I don't think there will be any models that can truly and accurately pick a winner in any sports context. It is essentially a 50/50 decision.
-- People (humnans) have a good intuition of choosing the winners based on the performance and games that a sports fan has watched. I've seen some people reach 60% accuracy when picking winners in the UFC for a year.
+- People (humans) have a good intuition of choosing the winners based on the performance and games that a sports fan has watched. I've seen some people reach 60% accuracy when picking winners in the UFC for a year.
 - The dataset posed a lot of issues. It was imbalanced, and it took a lot of preprocessing to clean it up. I think for cases like the Neural Network and SVM classifier, the data was too complex and caused overfitting. Some columns could have been omitted from the training. Future work includes cleaning the dataset more, simplify the data columns, and removing un-needed columns.
 - There can always be more work done to optimize the model; however, for now I will continue to work on other projects. I can see myself revisiting this project in the future. 
 - Overall I am happy with this project, and I am glad to see an acceptable accuracy.
