@@ -22,6 +22,7 @@
   The Ultimate Fighting Championship (UFC) is currently one of the fastest-growing sports in the world (Telegraph, 2017) and organises events weekly.
   
    My first ever UFC event was UFC 241 with Stipe vs Cormier 2 fighting for the world heavyweight championship at my friends house (I fell asleep after the first round). Ever since, I have become hooked to this sport not missing a single event. The excitement,the passion, the journey to champion, the devastation of a loss; it all adds to the appeal. Soon after I joined my coworkers subreddit [r/MMApredictions](https://www.reddit.com/r/mmapredictions/), where fans can predict the fights for points (basically for bragging rights).
+   > The subreddit has been discontinued
    
    
    
